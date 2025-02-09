@@ -1,49 +1,151 @@
 /* font fimaly work sens */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-#hero{
-    height: 700px;
-    background-image:linear-gradient(0deg, rgb(9, 9, 9) 3.482%,rgba(16, 16, 16, 0) 101.632%), url(../assets/hero-bg.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#hero .content{
-width: 685px;
-}
-#hero .content .subtitel{
-    color: rgb(255, 255, 255);
-font-family: Work Sans;
-font-size: 20px;
-font-weight: 600;
-line-height: 38px;
-letter-spacing: 0%;
-text-align: center;
+#hero .logo{
 
-}
-#hero .content .title{
-    color: rgb(255, 255, 255);
-    font-family: Work Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 50px;
-    letter-spacing: 0%;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: orange;
+    text-align: start;
+text-shadow: 0px 2px 30px rgb(255, 255, 255);
+    display: block;
+    margin-block-end: auto;
+
     text-align: center;
-    
-}
-#hero .content .description{
 
-    color: rgb(255, 255, 255);
+}
+#hero {
+  height: 700px;
+  background-image: linear-gradient(
+      0deg,
+      rgb(9, 9, 9) 3.482%,
+      rgba(16, 16, 16, 0) 101.632%
+    ),
+    url(../assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .content {
+  width: 685px;
+}
+#hero .content .subtitel {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 12px;
+  opacity: 0.7;
+}
+#hero .content .title {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#hero .content .description {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+.btn_conatiner {
+  text-align: center;
+}
+.btn:hover{
+    scale: 1.05;
+}
+.btn:active
+{
+    scale: 0.95;
+}
+.btn {
+  padding: 14px 18px 14px 18px;
+  /* color: rgb(255, 255, 255); */
+  font-family: Work Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: rgb(82, 195, 3);
+  margin-bottom: 10px;
+}
+#card_box{
+    width: 884px;
+    margin: 100px auto;
+}
+.cord-cont{
+    margin: 30px;
+    display: flex;
+justify-content: space-between;
+
+}
+
+
+#card_box .title{
+    color: rgb(16, 16, 16);
 font-family: Work Sans;
-font-size: 12px;
+font-size: 28px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center; 
+}
+#card_box .subtitel{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 14px;
 font-weight: 500;
 line-height: 28px;
 letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
+}
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Work Sans;
+    box-shadow: 5px 5px 10px lightblue;
+    border-radius: 20px;
+}
+.card .img-box{
+    width: 250px;
+}
+.card .img-box img{
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+    justify-content: center;
+}
+span
+{
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    background-color: rgba(82, 195, 3, 0.15);
+  
+    
 }
