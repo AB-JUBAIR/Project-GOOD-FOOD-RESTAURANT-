@@ -4,19 +4,7 @@
   margin: 0;
   padding: 0;
 }
-#hero .logo{
 
-    margin-top: 10px;
-    margin-left: 10px;
-    color: orange;
-    text-align: start;
-text-shadow: 0px 2px 30px rgb(255, 255, 255);
-    display: block;
-    margin-block-end: auto;
-
-    text-align: center;
-
-}
 #hero {
   height: 700px;
   background-image: linear-gradient(
@@ -148,4 +136,35 @@ span
     background-color: rgba(82, 195, 3, 0.15);
   
     
+}
+#about{
+position: absolute;
+    display: flex;
+    width: 1286px;
+    height: 1200px;
+    align-content: center;
+}
+#about .image_about{
+    /* image 1 */
+
+width: 50%;
+height: 100%;
+left: 0;
+top: 0;
+}
+#about .conta2{
+    text-align: center;
+    font-family: Work Sans;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#about .conta2 h1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
 }
