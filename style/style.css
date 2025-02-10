@@ -147,7 +147,7 @@ position: absolute;
 #about .image_about{
     /* image 1 */
 
-width: 50%;
+width: 100%;
 height: 100%;
 left: 0;
 top: 0;
@@ -159,12 +159,20 @@ top: 0;
     flex-direction: column;
     gap: 20px;
 }
-#about .conta2 h1{
-    color: rgb(16, 16, 16);
-font-family: Work Sans;
-font-size: 48px;
-font-weight: 700;
-line-height: 64px;
-letter-spacing: 0%;
-text-align: center;
+#about .conta2 .title
+{
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
+#about .conta2 .follow
+{
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  width: 1320px;
+  height: 50px;
+}
+#about .conta2 .follow
+{
+  display: block;
+  
+}
+
