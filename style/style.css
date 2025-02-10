@@ -176,16 +176,20 @@ img{
 {
   margin-top: 10px;
   margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 230%;
 }
 #about .conta2 .follow
 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgba(0, 0, 0, 0.4);
+border-top: 2px solid rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 50px;
-  background-color: lightblue;
+  background-color: rgba(218, 221, 222, 0.466);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+
 }
  .follow p
 {
