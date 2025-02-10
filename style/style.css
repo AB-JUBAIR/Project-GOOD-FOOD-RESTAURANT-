@@ -41,6 +41,7 @@
   line-height: 40px;
   letter-spacing: 0%;
   text-align: center;
+  align-items: center;
 }
 #hero .content .description {
   color: rgb(255, 255, 255);
@@ -138,19 +139,19 @@ span
     
 }
 #about{
-position: absolute;
-    display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
     width: 1286px;
-    height: 1200px;
+    height: 450px;
     align-content: center;
+    border: 2px solid black;
+    margin: 50px auto;
 }
 #about .image_about{
-    /* image 1 */
-
-width: 100%;
-height: 100%;
-left: 0;
-top: 0;
+height: 450px;
+width: 644px;
+position: static;
 }
 #about .conta2{
     text-align: center;
@@ -169,10 +170,12 @@ top: 0;
   border: 2px solid rgba(0, 0, 0, 0.4);
   width: 1320px;
   height: 50px;
+  background-color: lightblue;
 }
-#about .conta2 .follow
+ .follow p
 {
-  display: block;
-  
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400px;
 }
 
